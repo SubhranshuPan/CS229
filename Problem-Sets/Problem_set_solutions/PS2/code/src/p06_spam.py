@@ -145,7 +145,7 @@ def predict_from_naive_bayes_model(model, matrix):
     sum_log_p_x_y1 = (np.log(phi_k_y1) * matrix).sum(axis=1) + np.log(phi_y)
     sum_log_p_x_y0 = (np.log(phi_k_y0) * matrix).sum(axis=1) + np.log(1 - phi_y)
 
-    return (sum_log_p_x_y1 > sum_log_p_x_y0).astype(np.int)
+    return (sum_log_p_x_y1 > sum_log_p_x_y0).astype(int)
     # *** END CODE HERE ***
 
 def get_top_five_naive_bayes_words(model, dictionary):
