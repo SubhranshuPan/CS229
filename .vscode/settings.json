@@ -1,5 +1,5 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python.defaultInterpreterPath": "C:\\Users\\Enter\\anaconda3\\envs\\CS229\\python.exe"
+    "python.defaultInterpreterPath": "C:\\Users\\Enter\\anaconda3\\python.exe"
 }
